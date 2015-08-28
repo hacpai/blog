@@ -1,22 +1,22 @@
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 kramdown:
   input: GFM
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: hacpai
+  email: iomniscience@icloud.com
+  link: http://hacpai.github.io/simpleblog
+  weibo: http://weibo.com/u/2954068011
+  github: http://github.com/hacpai
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
-url: http://yansu.org
+title: hacpai's blog
+description: hacpai's blog
+url: http://hacpai.github.io/simpleblog
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
@@ -25,9 +25,9 @@ favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # google analytics 设置
 ga:
-  id: UA-54767140-1
-  url: yansu.org
+  id: UA-66883716-1
+  url: hacpai.github.io/simpleblog
 
 # disqus 设置
 disqus:
-  shortname: suyan-zh
+  shortname: hacpaissimpleblog
