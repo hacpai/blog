@@ -2,7 +2,7 @@
 layout: post
 title: 高级语言与低级语言
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

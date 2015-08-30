@@ -2,7 +2,7 @@
 layout: post
 title: 电报机与继电器
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

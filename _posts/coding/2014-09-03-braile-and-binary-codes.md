@@ -2,7 +2,7 @@
 layout: post
 title: 布莱叶盲文与二进制码
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

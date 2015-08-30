@@ -2,7 +2,7 @@
 layout: post
 title: 手电筒的剖析
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

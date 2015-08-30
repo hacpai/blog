@@ -2,7 +2,7 @@
 layout: post
 title: 储存器组织
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

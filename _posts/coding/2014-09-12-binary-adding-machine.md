@@ -2,7 +2,7 @@
 layout: post
 title: 二进制加法器
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

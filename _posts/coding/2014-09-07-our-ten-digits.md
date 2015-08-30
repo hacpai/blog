@@ -2,7 +2,7 @@
 layout: post
 title: 我们的十个数字
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

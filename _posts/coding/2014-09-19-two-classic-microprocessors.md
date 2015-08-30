@@ -2,7 +2,7 @@
 layout: post
 title: 两种典型的微处理器
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

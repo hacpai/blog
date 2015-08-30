@@ -2,7 +2,7 @@
 layout: post
 title: 至亲密友
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

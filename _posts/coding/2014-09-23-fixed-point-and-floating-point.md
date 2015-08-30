@@ -2,7 +2,7 @@
 layout: post
 title: 定点数和浮点数
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 

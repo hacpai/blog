@@ -2,7 +2,7 @@
 layout: post
 title: 反馈与触发器
 category: 编码基础
-tags: code
+tags: coding
 description: 
 ---
 
