@@ -7,5 +7,5 @@ title : Sitemap
 {% endfor %}
 
 {% for post in site.posts %}
-  {{site.address}}{{ post.url }}
+  {{site.address}}{{ site.baseurl }}{{ post.url }}
 {% endfor %}
