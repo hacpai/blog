@@ -9,14 +9,14 @@ kramdown:
 author: 
   name: hacpai
   email: iomniscience@icloud.com
-  link: http://hacpai.github.io/simpleblog
+  link: http://hacpai.github.io/readme
   weibo: http://weibo.com/u/2954068011
   github: http://github.com/hacpai
 
 # 站点信息
 title: hacpai's blog
 description: hacpai's blog
-url: http://hacpai.github.io/simpleblog
+url: http://hacpai.github.io/readme
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
@@ -26,7 +26,7 @@ favicon: http://i.imgur.com/1ZRJ8qz.jpg
 # google analytics 设置
 ga:
   id: UA-66883716-1
-  url: hacpai.github.io/simpleblog
+  url: hacpai.github.io/readme
 
 # disqus 设置
 disqus:
@@ -37,4 +37,4 @@ disqus:
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: 
-    "/simpleblog"
+    "/readme"
