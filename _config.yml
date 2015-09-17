@@ -1,0 +1,40 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: hacpai
+  email: iomniscience@icloud.com
+  link: http://hacpai.github.io/readme
+  weibo: http://weibo.com/u/2954068011
+  github: http://github.com/hacpai
+
+# 站点信息
+title: hacpai's blog
+description: hacpai's blog
+url: http://hacpai.github.io/readme
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: http://ww2.sinaimg.cn/mw690/b013802bjw1evn7k5laskj20dc0dct93.jpg
+favicon: http://i.imgur.com/1ZRJ8qz.jpg
+
+# google analytics 设置
+ga:
+  id: UA-66883716-1
+  url: hacpai.github.io/readme
+
+# disqus 设置
+disqus:
+  shortname: hacpaissimpleblog
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: 
+    "/readme"
