@@ -2,7 +2,7 @@
 
 记录学习生活的轨迹，分享传播知识技术。
 
-地址：[http://hacpai.github.io/simpleblog](http://hacpai.github.io/simpleblog)
+地址：[http://hacpai.github.io/readme](http://hacpai.github.io/readme)
 
 ### 分支说明
 
