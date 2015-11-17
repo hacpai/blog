@@ -14,7 +14,7 @@ description:
 
 首先我们先来看一下计算框架的注册流程。
 
-![屏幕快照_2015-11-13_下午6.20.08](/uploads/e7780ecb2420c9eac721f0caa8518a3e/屏幕快照_2015-11-13_下午6.20.08.png)
+![Imgur](http://i.imgur.com/1liZMWC.png)
 
 一个框架要接入 mesos 需要实现一个特定于自己框架本身的一个调度器：FrameworkScheduler 和 框架本身的一个执行器：Executor。
 
@@ -176,7 +176,7 @@ driver.start();
 
 随着 MesosSchedulerDrive.start() 的执行，我们进入到了 mesos 的启动过程。这里，我们通过阅读 sched.cpp 文件将 mesos 的启动归结为下图：
 
-![屏幕快照_2015-11-13_下午6.20.08](/uploads/e7780ecb2420c9eac721f0caa8518a3e/屏幕快照_2015-11-13_下午6.20.08.png)
+![Imgur](http://i.imgur.com/1liZMWC.png)
 
 首先以 MesosSchedulerDriver、FrameworkScheduler、Master 的 url 等作为参数创建了一个 SchedulerProcess 对象，初始化为一个收发消息的服务器，用来跟 Mesos master 进行交互，以实现响应 MesosSchedulerDriver 中调度资源、作业信息等信息的请求。
 

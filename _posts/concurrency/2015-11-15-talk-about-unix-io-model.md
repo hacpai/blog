@@ -24,29 +24,31 @@ description:
 
 下图是它调用过程的图示：
 
-![](https://pic2.zhimg.com/e83d68da03da2e8c1568b4b4b630edfd_b.jpg)
+![Imgur](http://i.imgur.com/0x6Ttu6.jpg)
 
 首先应用进程会调用 recvfrom() 传入 kernel，注意这里 kernel 有两个过程，等待数据和将数据从内核拷贝到用户空间。直到拷贝完成后，recvfrom() 才返回。此过程一直是阻塞的。
 
 #### 2. 非阻塞式 I/O 模型: 非阻塞套接字。调用过程如下：
 
-![](https://pic1.zhimg.com/4bc31cab27a9a732ab7d1ba9e674ed64_b.jpg)
+![Imgur](http://i.imgur.com/EcQ8q5O.jpg)
 
 可以看出，等待数据时使用了轮询的方式，直到内核缓冲区有数据。
 
 #### 3. I/O 多路复用：最常见的 I/O 复用模型：select。
 
+![Imgur](http://i.imgur.com/Gmwgg6w.png)
+
 select 先阻塞，有活动套接字才返回。与阻塞式 I/O 相比，select 会有两次系统调用，但是 select 却能处理多个套接字。
 
 #### 4. 信号驱动式 I/O(SIGIO)
 
-![](https://pic1.zhimg.com/6294fb7f7f5c22e39187a490c35ac6f0_b.jpg)
+![Imgur](http://i.imgur.com/ACsfHmE.jpg)
 
 只有 Unix 系统支持，与 I/O 多路复用机制相比，它的优势是免去了 select 的阻塞与轮询，当有活跃套接字时，由注册的 handler 处理。
 
 #### 5. 异步 I/O (POSIX 的 aio 系列函数)
 
-![](https://pic2.zhimg.com/5819fd0fdff2bd4fdc9652291aca1831_b.jpg)
+![Imgur](http://i.imgur.com/aXS6sqr.jpg)
 
 很少有 Unix 或 Linux 系统支持，Windows 的 IOCP 就是此模型。 
 
@@ -54,7 +56,7 @@ select 先阻塞，有活动套接字才返回。与阻塞式 I/O 相比，selec
 
 下面是以上五种模型的比较。
 
-![](https://pic4.zhimg.com/8244d924a12eaf42d61b41718c559bff_b.jpg)
+![Imgur](http://i.imgur.com/gPcZaxW.jpg)
 
 那么什么是同步呢？其实前面四种 I/O 模型都是同步 I/O 操作，它们的区别在于第一阶段，而他们的第二阶段是一样的：数据从内核复制到缓冲区期间（用户空间），进程阻塞于 recvfrom 调用。相反，异步 I/O 模型在这两个阶段都要处理。
 
