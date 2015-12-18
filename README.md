@@ -1,3 +1,7 @@
+# README
+
+Jekyll source for my personal blog.
+
 ### 我的博客
 
 Write after thinking.
