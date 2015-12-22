@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 自动操作 
-category: 编码基础
-tags: coding
+category: 摘录
+tags: snippet
 description: 
 ---
 我们要设计一个更加先进的机器，目标是使加减法的过程自动化。同时这个机器用途非常广泛，因为它可以解决所有用加减法处理的问题，而事实上现实中的很多问题都可以用加法与减法解决。

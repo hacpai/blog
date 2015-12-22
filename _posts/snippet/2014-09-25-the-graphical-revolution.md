@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 图形化革命
-category: 编码基础
-tags: coding
+category: 摘录
+tags: snippet
 description: 
 ---
 
